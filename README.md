@@ -1,4 +1,27 @@
 # Reversi
-This is the work finished in my freshman winter vacation in 2017. The only modification before uploading exist in documentation and the standard output function. The program should work well in Windows10, 1920*1080 DPI.
 
-这是我在2017年年初大一寒假中完成的作品，代码非常青涩，两年多后写完五子棋程序想起来整理了一下。传到Github之前进行过修改，这些修改仅存在于程序说明和棋盘输出函数，其他地方都完全维持原貌。程序在Windows10，1920*1080分辨率下运行。
+This is a Reversi/Othello program with AI, strong enough to beat amateurs. The algorithm is based on alpha-beta search. The evaluation function quantifies mobility, potential mobility and stable discs of the board with penalties.
+
+## Getting Started
+
+Click [here](https://github.com/sun-yuliang/Reversi/releases/download/0.0.1/Reversi-Release.zip) to download the exe file with database.
+
+### Environment
+
+64-bit Windows 10 is recommended. Chess board display may be distorted in Windows 7 command prompt.
+
+### Running the Program
+
+Unzip the file and run the program by clicking Reversi.exe. Notice that stable_b.txt and stable_w.txt must the in the same directory.
+
+## Development
+
+Microsoft Visual Studio is needed for immediate development of this project.
+
+## Author
+
+* **Sun**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sun-yuliang/Reversi/blob/master/LICENSE) file for details
