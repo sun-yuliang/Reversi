@@ -1,6 +1,6 @@
 # Reversi
 
-This is a Reversi/Othello program with AI, strong enough to beat amateurs. The algorithm is based on alpha-beta search. The evaluation function quantifies mobility, potential mobility and stable discs of the board with penalties.
+This is a Reversi/Othello playing engine with command line interface, strong enough to beat amateurs. The algorithm is based on heuristic alpha-beta search. The evaluation function quantifies mobility, potential mobility and stable discs of the board with penalties.
 
 ## Getting Started
 
@@ -12,11 +12,11 @@ Click [here](https://github.com/sun-yuliang/Reversi/releases/download/0.0.1/Reve
 
 ### Running the Program
 
-Unzip the file and run the program by clicking Reversi.exe. Notice that stable_b.txt and stable_w.txt must the in the same directory.
+Unzip the file and run the program by clicking Reversi.exe. Notice that stable_b.txt and stable_w.txt must be in the same directory of the exe file.
 
 ## Development
 
-Microsoft Visual Studio is needed for immediate development of this project.
+Microsoft Visual Studio is needed for immediate development.
 
 ## Author
 
